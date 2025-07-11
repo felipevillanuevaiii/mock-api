@@ -1,0 +1,32 @@
+[
+    {
+        "method": "POST",
+        "path": "/api/token",
+        "file": "api-token-response.json",
+        "code": 201
+    },
+    {
+        "method": "POST",
+        "path": "/api/inquiry?q=fail",
+        "file": "api-bill-inquiry-fail-response.json",
+        "code": 400
+    },
+    {
+        "method": "POST",
+        "path": "/api/inquiry?q=success",
+        "file": "api-bill-success-response.json",
+        "code": 200
+    },
+    {
+        "method": "POST",
+        "path": "/api/bill?q=fail",
+        "file": "api-bill-fail-response.json",
+        "code": 400
+    },
+    {
+        "method": "POST",
+        "path": "/api/bill",
+        "file": "api-bill-response.json",
+        "code": 200
+    }
+]
