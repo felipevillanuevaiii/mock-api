@@ -7,19 +7,19 @@
     },
     {
         "method": "POST",
-        "path": "/api/inquiry?q=fail",
+        "path": "/api/inquiry/fail",
         "file": "api-bill-inquiry-fail-response.json",
         "code": 400
     },
     {
         "method": "POST",
-        "path": "/api/inquiry?q=success",
+        "path": "/api/inquiry/success",
         "file": "api-bill-inquiry-success-response.json",
         "code": 200
     },
     {
         "method": "POST",
-        "path": "/api/bill?q=fail",
+        "path": "/api/bill/fail",
         "file": "api-bill-fail-response.json",
         "code": 400
     },
