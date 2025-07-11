@@ -14,7 +14,7 @@
     {
         "method": "POST",
         "path": "/api/inquiry?q=success",
-        "file": "api-bill-success-response.json",
+        "file": "api-bill-inquiry-success-response.json",
         "code": 200
     },
     {
