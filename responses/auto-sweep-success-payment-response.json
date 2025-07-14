@@ -1,0 +1,17 @@
+{
+  "Payment2Result": {
+    "Code": "0",
+    "Desc": "",
+    "ORInfo": {
+      "AccountName": null,
+      "AccountTIN": null,
+      "Address": null,
+      "HostTIN": null,
+      "ORDate": "/Date(1427449986150+0800)/",
+      "ORMin": null,
+      "ORNumber": "X0000000363",
+      "ORPN": null,
+      "ReferenceNo": "R0000000365"
+    }
+  }
+}

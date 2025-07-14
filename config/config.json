@@ -28,5 +28,29 @@
         "path": "/api/bill",
         "file": "api-bill-response.json",
         "code": 200
+    },
+    {
+        "method": "POST",
+        "path": "/amswebsvc/AmsSvc/Login",
+        "file": "auto-sweep-success-login-response.json",
+        "code": 200
+    },
+    {
+        "method": "POST",
+        "path": "/amswebsvc/AmsSvc/Login/Failed",
+        "file": "auto-sweep-failed-login-response.json",
+        "code": 200
+    },
+    {
+        "method": "POST",
+        "path": "/amswebsvc/AmsSvc/Payment/v2",
+        "file": "auto-sweep-success-payment-response.json",
+        "code": 200
+    },
+    {
+        "method": "POST",
+        "path": "/amswebsvc/AmsSvc/Payment/v2/Failed",
+        "file": "auto-sweep-failed-payment-response.json",
+        "code": 200
     }
 ]

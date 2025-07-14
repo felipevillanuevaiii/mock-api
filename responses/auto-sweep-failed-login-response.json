@@ -1,0 +1,14 @@
+{
+  "LoginResult": {
+    "RandomKey": "",
+    "SessionID": "",
+    "UseIPAddress": null,
+    "UsePortNo": null,
+    "Username": "",
+    "response": {
+      "Code": "1",
+      "Desc": "Invalid message",
+      "ORInfo": null
+    }
+  }
+}

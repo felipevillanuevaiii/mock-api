@@ -1,0 +1,14 @@
+{
+  "LoginResult": {
+    "RandomKey": "385124457AMS2622",
+    "SessionID": "RFSVC032620151158407271000251572",
+    "UseIPAddress": "233.233.233.233",
+    "UsePortNo": "1001",
+    "Username": "jdcruz",
+    "response": {
+      "Code": "0",
+      "Desc": "",
+      "ORInfo": null
+    }
+  }
+}
