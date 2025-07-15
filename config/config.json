@@ -52,5 +52,11 @@
         "path": "/amswebsvc/AmsSvc/Payment/v2/Failed",
         "file": "auto-sweep-failed-payment-response.json",
         "code": 200
+    },
+    {
+        "method": "POST",
+        "path": "/amswebsvc/AmsSvc/Payment/v2/Invalid-Debit-Card",
+        "file": "auto-sweep-invalid-debit-card-payment-response.json",
+        "code": 400
     }
 ]

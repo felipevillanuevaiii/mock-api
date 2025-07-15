@@ -1,0 +1,7 @@
+{
+  "Payment2Result": {
+    "Code": "41",
+    "Desc": "Invalid DebitCard number",
+    "ORInfo": null
+  }
+}
