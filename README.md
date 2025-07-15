@@ -3,7 +3,7 @@ things to install:
  - latest node
 
 
-command to run:
+command to run on local:
  - npx json-server db.json --middlewares delay-middleware.js middleware.js --port 8080
 
 
