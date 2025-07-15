@@ -1,7 +1,7 @@
 
 module.exports = (req, res, next) => {
     try {
-        if (req.path.startsWith("/timeout")) {
+        if (req.path.endsWith("timeout")) {
             return;
         }
     } catch(error) {
