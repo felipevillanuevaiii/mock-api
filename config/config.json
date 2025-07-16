@@ -2,67 +2,107 @@
     {
         "method": "POST",
         "path": "/api/token",
+        "query": {},
         "file": "api-token-response.json",
         "code": 201
     },
     {
         "method": "POST",
-        "path": "/api/inquiry/fail",
+        "path": "/api/inquiry",
+        "query": {
+            "failed": ""
+        },
         "file": "api-bill-inquiry-fail-response.json",
         "code": 400
     },
     {
         "method": "POST",
-        "path": "/api/inquiry/success",
+        "path": "/api/inquiry",
+        "query": {
+            "success": ""
+        },
         "file": "api-bill-inquiry-success-response.json",
         "code": 200
     },
     {
         "method": "POST",
-        "path": "/api/bill/fail",
+        "path": "/api/bill",
+        "query": {
+            "failed": ""
+        },
         "file": "api-bill-fail-response.json",
         "code": 400
     },
     {
         "method": "POST",
         "path": "/api/bill",
+        "query": {
+            "success": ""
+        },
         "file": "api-bill-response.json",
         "code": 200
     },
     {
         "method": "POST",
-        "path": "/amswebsvc/AmsSvc/Login",
-        "file": "auto-sweep-success-login-response.json",
-        "code": 200
-    },
-    {
-        "method": "POST",
-        "path": "/amswebsvc/AmsSvc/Login/Failed",
-        "file": "auto-sweep-failed-login-response.json",
-        "code": 200
-    },
-    {
-        "method": "POST",
         "path": "/amswebsvc/AmsSvc/Payment/v2",
+        "query": {
+            "success": ""
+        },
         "file": "auto-sweep-success-payment-response.json",
         "code": 200
     },
     {
         "method": "POST",
-        "path": "/amswebsvc/AmsSvc/Payment/v2/Failed",
+        "path": "/amswebsvc/AmsSvc/Payment/v2",
+        "query": {
+            "failed": ""
+        },
         "file": "auto-sweep-failed-payment-response.json",
         "code": 200
     },
     {
         "method": "POST",
-        "path": "/amswebsvc/AmsSvc/Payment/v2/Invalid-Debit-Card",
+        "path": "/amswebsvc/AmsSvc/Payment/v2",
+        "query": {
+            "failed-debit": ""
+        },
         "file": "auto-sweep-invalid-debit-card-payment-response.json",
         "code": 400
     },
     {
         "method": "POST",
-        "path": "/amswebsvc/AmsSvc/Payment/v2/Invalid-Debit-Card-200",
+        "path": "/amswebsvc/AmsSvc/Payment/v2",
+        "query": {
+            "failed-debit-200": ""
+        },
         "file": "auto-sweep-invalid-debit-card-payment-response.json",
+        "code": 200
+    },
+    {
+        "method": "POST",
+        "path": "/amswebsvc/AmsSvc/Login",
+        "query": {
+            "success": ""
+        },
+        "file": "auto-sweep-success-login-response.json",
+        "code": 200
+    },
+    {
+        "method": "POST",
+        "path": "/amswebsvc/AmsSvc/Login",
+        "query": {
+            "failed": ""
+        },
+        "file": "auto-sweep-failed-login-response.json",
+        "code": 200
+    },
+    {
+        "method": "POST",
+        "path": "/api/search",
+        "query": {
+            "q": ""
+        },
+        "file": "search_results_template.json",
         "code": 200
     }
 ]
