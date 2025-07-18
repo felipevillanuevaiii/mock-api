@@ -194,5 +194,14 @@
         },
         "file": "csmc-failed-payment-with-no-retry-response.json",
         "code": 200
+    },
+    {
+        "method": "POST",
+        "path": "/payment-kiosk-api/api/v1/bill/payment",
+        "query": {
+            "failed-pending": ""
+        },
+        "file": "csmc-failed-payment-with-pending-confirmation.json",
+        "code": 200
     }
 ]
