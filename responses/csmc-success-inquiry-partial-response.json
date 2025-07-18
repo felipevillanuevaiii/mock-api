@@ -1,0 +1,16 @@
+[
+    {
+        "success": true,
+        "bill_id": "SOA2501713",
+        "patient_mrn": "MRN00241616",
+        "bill_generate_date_time": "2025-02-04T16:53:09+08:00",
+        "bill_amount": 90000
+    },
+    {
+        "success": true,
+        "bill_id": "SOA2501713",
+        "patient_mrn": "MRN00242749",
+        "bill_generate_date_time": "2025-06-19T23:41:06+08:00",
+        "bill_amount": 3347.13
+    }
+]

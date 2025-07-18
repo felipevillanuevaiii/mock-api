@@ -98,11 +98,101 @@
     },
     {
         "method": "POST",
-        "path": "/api/search",
+        "path": "/payment-kiosk-api/api/v1/bill/generate-token",
         "query": {
-            "q": ""
+            "success": ""
         },
-        "file": "search_results_template.json",
+        "file": "csmc-success-token-response.json",
+        "code": 200
+    },
+    {
+        "method": "POST",
+        "path": "/payment-kiosk-api/api/v1/bill/generate-token",
+        "query": {
+            "failed": ""
+        },
+        "file": "csmc-failed-token-response.json",
+        "code": 200
+    },
+    {
+        "method": "POST",
+        "path": "/payment-kiosk-api/api/v1/bill/generate-token",
+        "query": {
+            "400": ""
+        },
+        "file": "csmc-failed-token-response.json",
+        "code": 400
+    },
+    {
+        "method": "POST",
+        "path": "/payment-kiosk-api/api/v1/bill/query/bill-id",
+        "query": {
+            "success": ""
+        },
+        "file": "csmc-success-inquiry-response.json",
+        "code": 200
+    },
+    {
+        "method": "POST",
+        "path": "/payment-kiosk-api/api/v1/bill/query/bill-id",
+        "query": {
+            "partial": ""
+        },
+        "file": "csmc-success-inquiry-partial-response.json",
+        "code": 200
+    },
+    {
+        "method": "POST",
+        "path": "/payment-kiosk-api/api/v1/bill/query/bill-id",
+        "query": {
+            "failed": ""
+        },
+        "file": "csmc-failed-inquiry-response.json",
+        "code": 200
+    },
+    {
+        "method": "POST",
+        "path": "/payment-kiosk-api/api/v1/bill/payment",
+        "query": {
+            "success": ""
+        },
+        "file": "csmc-success-payment-response.json",
+        "code": 200
+    },
+    {
+        "method": "POST",
+        "path": "/payment-kiosk-api/api/v1/bill/payment",
+        "query": {
+            "badRequest": ""
+        },
+        "file": "csmc-failed-payment-with-retry-response.json",
+        "code": 400
+    },
+    {
+        "method": "POST",
+        "path": "/payment-kiosk-api/api/v1/bill/payment",
+        "query": {
+            "internalServerError": ""
+        },
+        "file": "csmc-failed-payment-with-retry-response.json",
+        "code": 500
+    },
+    {
+        "method": "POST",
+        "path": "/payment-kiosk-api/api/v1/bill/payment",
+        "query": {
+            "retry": ""
+        },
+        "file": "csmc-failed-payment-with-retry-response.json",
+        "code": 200
+    },
+    {
+        "method": "POST",
+        "path": "/payment-kiosk-api/api/v1/bill/payment",
+        "query": {
+            "noretry": ""
+        },
+        "file": "csmc-failed-payment-with-no-retry-response.json",
         "code": 200
     }
 ]

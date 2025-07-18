@@ -1,0 +1,6 @@
+{
+    "success": false,
+    "message": "i wont retry the transaction",
+    "retry": false,
+    "error": "invalid payment mode"
+}

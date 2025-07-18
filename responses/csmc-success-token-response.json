@@ -1,0 +1,6 @@
+{
+    "success": true,
+    "name": "API Token",
+    "access_token": "abcdefgh",
+    "expires_in_hours": 24
+}
