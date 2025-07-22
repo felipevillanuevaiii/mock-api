@@ -24,6 +24,7 @@ module.exports = (req, res, next) => {
     try {
         if (req.method) {
             const config = readJsonFile('config.json', 'config');
+            let stringify;
 
             //console.log(req.query);
             const data = config.find(object => {
@@ -31,6 +32,8 @@ module.exports = (req, res, next) => {
                 
                 // Simplified query comparison for demonstration
                 const isQueryMatch = Object.keys(object.query).every(key => key in req.query);
+
+                stringify = object.string;
                 
                 return isPathAndMethodMatch && isQueryMatch;
             });
@@ -48,6 +51,11 @@ module.exports = (req, res, next) => {
                 
                 // Parse the final content and send the response
                 const jsonResponse = JSON.parse(responseContent);
+
+                if (stringify) {
+                    return res.status(data.code).json(JSON.stringify(jsonResponse));
+                }
+                
                 return res.status(data.code).json(jsonResponse);
             }
         }

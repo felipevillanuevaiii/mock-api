@@ -4,7 +4,8 @@
         "path": "/api/token",
         "query": {},
         "file": "api-token-response.json",
-        "code": 201
+        "code": 201,
+        "string": false
     },
     {
         "method": "POST",
@@ -13,7 +14,8 @@
             "failed": ""
         },
         "file": "api-bill-inquiry-fail-response.json",
-        "code": 400
+        "code": 400,
+        "string": false
     },
     {
         "method": "POST",
@@ -22,7 +24,8 @@
             "success": ""
         },
         "file": "api-bill-inquiry-success-response.json",
-        "code": 200
+        "code": 200,
+        "string": false
     },
     {
         "method": "POST",
@@ -31,7 +34,8 @@
             "failed": ""
         },
         "file": "api-bill-fail-response.json",
-        "code": 400
+        "code": 400,
+        "string": false
     },
     {
         "method": "POST",
@@ -40,7 +44,8 @@
             "success": ""
         },
         "file": "api-bill-response.json",
-        "code": 200
+        "code": 200,
+        "string": false
     },
     {
         "method": "POST",
@@ -49,7 +54,8 @@
             "success": ""
         },
         "file": "auto-sweep-success-payment-response.json",
-        "code": 200
+        "code": 200,
+        "string": true
     },
     {
         "method": "POST",
@@ -58,7 +64,8 @@
             "failed": ""
         },
         "file": "auto-sweep-failed-payment-response.json",
-        "code": 200
+        "code": 200,
+        "string": true
     },
     {
         "method": "POST",
@@ -67,7 +74,8 @@
             "failed-debit": ""
         },
         "file": "auto-sweep-invalid-debit-card-payment-response.json",
-        "code": 400
+        "code": 400,
+        "string": true
     },
     {
         "method": "POST",
@@ -76,7 +84,8 @@
             "failed-debit-200": ""
         },
         "file": "auto-sweep-invalid-debit-card-payment-response.json",
-        "code": 200
+        "code": 200,
+        "string": true
     },
     {
         "method": "POST",
@@ -85,7 +94,8 @@
             "success": ""
         },
         "file": "auto-sweep-success-login-response.json",
-        "code": 200
+        "code": 200,
+        "string": true
     },
     {
         "method": "POST",
@@ -94,7 +104,8 @@
             "failed": ""
         },
         "file": "auto-sweep-failed-login-response.json",
-        "code": 200
+        "code": 200,
+        "string": true
     },
     {
         "method": "POST",
@@ -103,7 +114,8 @@
             "success": ""
         },
         "file": "csmc-success-token-response.json",
-        "code": 200
+        "code": 200,
+        "string": false
     },
     {
         "method": "POST",
@@ -112,7 +124,8 @@
             "failed": ""
         },
         "file": "csmc-failed-token-response.json",
-        "code": 200
+        "code": 200,
+        "string": false
     },
     {
         "method": "POST",
@@ -121,7 +134,8 @@
             "400": ""
         },
         "file": "csmc-failed-token-response.json",
-        "code": 400
+        "code": 400,
+        "string": false
     },
     {
         "method": "POST",
@@ -130,7 +144,8 @@
             "success": ""
         },
         "file": "csmc-success-inquiry-response.json",
-        "code": 200
+        "code": 200,
+        "string": false
     },
     {
         "method": "POST",
@@ -139,7 +154,8 @@
             "partial": ""
         },
         "file": "csmc-success-inquiry-partial-response.json",
-        "code": 200
+        "code": 200,
+        "string": false
     },
     {
         "method": "POST",
@@ -148,7 +164,8 @@
             "failed": ""
         },
         "file": "csmc-failed-inquiry-response.json",
-        "code": 200
+        "code": 200,
+        "string": false
     },
     {
         "method": "POST",
@@ -157,7 +174,8 @@
             "success": ""
         },
         "file": "csmc-success-payment-response.json",
-        "code": 200
+        "code": 200,
+        "string": false
     },
     {
         "method": "POST",
@@ -166,7 +184,8 @@
             "badRequest": ""
         },
         "file": "csmc-failed-payment-with-retry-response.json",
-        "code": 400
+        "code": 400,
+        "string": false
     },
     {
         "method": "POST",
@@ -175,7 +194,8 @@
             "internalServerError": ""
         },
         "file": "csmc-failed-payment-with-retry-response.json",
-        "code": 500
+        "code": 500,
+        "string": false
     },
     {
         "method": "POST",
@@ -184,7 +204,8 @@
             "retry": ""
         },
         "file": "csmc-failed-payment-with-retry-response.json",
-        "code": 200
+        "code": 200,
+        "string": false
     },
     {
         "method": "POST",
@@ -193,7 +214,8 @@
             "noretry": ""
         },
         "file": "csmc-failed-payment-with-no-retry-response.json",
-        "code": 200
+        "code": 200,
+        "string": false
     },
     {
         "method": "POST",
@@ -202,6 +224,7 @@
             "failed-pending": ""
         },
         "file": "csmc-failed-payment-with-pending-confirmation.json",
-        "code": 200
+        "code": 200,
+        "string": false
     }
 ]
