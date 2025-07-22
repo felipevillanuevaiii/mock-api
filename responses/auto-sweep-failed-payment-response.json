@@ -1,5 +1,5 @@
 {
-  "Payment2Result": {
+  "PaymentResult": {
     "Code": "1",
     "Desc": "Invalid Session",
     "ORInfo": null
