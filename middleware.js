@@ -1,15 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-
-const readJsonFile = (filePath, folder) => {
-    try {
-        const fullPath = path.join(__dirname, folder, filePath);
-        const data = fs.readFileSync(fullPath, 'utf8');
-        return JSON.parse(data);
-    } catch(error) {
-        console.error(`Error reading JSON file: ${filePath}`, error);
-    }
-};
+// const crypto = require('crypto-js');
 
 const readTemplateFile = (filePath, folder) => {
     try {
@@ -23,9 +14,11 @@ const readTemplateFile = (filePath, folder) => {
 module.exports = (req, res, next) => {
     try {
         if (req.method) {
-            const config = readJsonFile('config.json', 'config');
+            const config = JSON.parse(readTemplateFile('config.json', 'config'));
             let stringify;
 
+            // crypto.SHA256();
+            
             //console.log(req.query);
             const data = config.find(object => {
                 const isPathAndMethodMatch = (object.path === req.path) && (object.method === req.method);
